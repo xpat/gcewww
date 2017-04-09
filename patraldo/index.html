@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="application/javascript" language="javascript">
+
+window.onload = draw; 
+function draw(){
+
+var canvas = document.getElementById("canvas1");
+var ctx = canvas.getContext("2d");
+ctx.fillStyle = "rgba(0,200,0,1)";
+ctx.fillRect (36, 10, 22, 22)
+ctx.fillStyle = "rgba(0,200,200,1)";
+ctx.fillRect (36, 50, 22, 22);
+ctx.fillStyle = "rgba(0,100,0,1)";
+ctx.fillRect (36, 90, 22, 22);
+ctx.fillStyle = "rgba(100,100,200,.5)";
+ctx.fillRect (36, 130, 22, 22);
+ctx.fillStyle = "rgba(200,50,200,.5)";
+ctx.fillRect (36, 170, 22, 22);
+ctx.fillStyle = "rgba(155,155,155,1)";
+ctx.fillRect (80, 16, 22, 22)
+ctx.fillStyle = "rgba(255,0,0,.8)";
+ctx.fillRect (96, 50, 22, 22);
+ctx.fillStyle = "rgba(0,254,0,1)";
+ctx.fillRect (80, 84, 22, 22);
+
+}
+</script>
+</head>
+<body>
+<canvas id="canvas1" width="200" height="210"></canvas>
+</body>
+</html>
+
